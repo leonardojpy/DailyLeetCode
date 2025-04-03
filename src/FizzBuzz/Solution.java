@@ -21,6 +21,7 @@ public class Solution {
                 answer.add(String.valueOf(contador));
             }
         }
+        System.out.println(answer);
         return answer;
     }
 }
