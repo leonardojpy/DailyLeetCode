@@ -9,6 +9,9 @@ public class Solution {
 
     public boolean isPalindrome(int x) {
         List<Character> index = new ArrayList<>();
+        if (x < 0){
+            throw new IllegalArgumentException("Only positive numbers are palindromes.");
+        }
         String numero = String.valueOf(x);
         for (int i = 0; i < numero.length(); i++){
             index.add((numero.charAt(i)));
