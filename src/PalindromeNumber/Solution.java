@@ -8,24 +8,31 @@ import java.util.List;
 public class Solution {
 
     public boolean isPalindrome(int x) {
-        List<Character> index = new ArrayList<>();
-        if (x < 0){
-            throw new IllegalArgumentException("Only positive numbers are palindromes.");
+
+        //Negative numbers can't be palindromes.
+        if (x < 0) {
+            return false;
         }
+
+        //Every single digit positive number is a palindrome (0-9).
+        if (x <= 9 && x > 0) {
+            System.out.println("Every single digit positive number is a palindrome.");
+            return true;
+        }
+
         String numero = String.valueOf(x);
-        for (int i = 0; i < numero.length(); i++){
-            index.add((numero.charAt(i)));
-        }
-        int i = 0;
-        while (i < index.size()){
-            if (index.getFirst() == index.getLast()){
-                index.removeFirst();
-                index.removeLast();
-                i++;
-            } else {
+        int left = 0;
+        int right = numero.length() - 1;
+
+        while (left < right) {
+            if (numero.charAt(left) != numero.charAt(right)) {
                 return false;
             }
+            left++;
+            right--;
         }
-    return true;
+        return true;
     }
 }
+
+
