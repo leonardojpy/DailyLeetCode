@@ -27,6 +27,5 @@ public class Solution {
             }
         }
 
-        return soma + ultimoDigito;
-    }
+        return soma + ultimoDigito;    }
 }
