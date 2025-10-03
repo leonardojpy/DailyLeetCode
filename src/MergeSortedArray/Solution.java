@@ -1,6 +1,6 @@
 package MergeSortedArray;
 
-//Leetcode description: https://leetcode.com/problems/merge-sorted-array/description/
+//Leetcode description: https://leetcode.com/problems/merge-sorted-array/description
 
 class Solution {
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
