@@ -1,6 +1,6 @@
 package FizzBuzz;
 
-//LeetCode description: https://leetcode.com/problems/fizz-buzz/description/
+//LeetCode description: https://leetcode.com/problems/fizz-buzz/description
 
 import java.util.ArrayList;
 import java.util.List;
