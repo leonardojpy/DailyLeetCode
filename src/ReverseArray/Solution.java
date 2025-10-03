@@ -1,5 +1,5 @@
 package ReverseArray;
-//This exercise is not on LeetCode.
+//This exercise is not on LeetCode
 public class Solution {
     public static int[] inverterArray(int[] numeros){
         int left = 0;
