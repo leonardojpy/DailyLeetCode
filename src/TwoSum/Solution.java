@@ -1,6 +1,6 @@
 package TwoSum;
 
-//LeetCode Description: https://leetcode.com/problems/two-sum/description/
+//LeetCode Description: https://leetcode.com/problems/two-sum/description
 
 public class Solution {
     public int[] twoSum(int[] nums, int target){
