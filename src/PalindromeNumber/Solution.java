@@ -1,9 +1,6 @@
 package PalindromeNumber;
 
-//LeetCode description: https://leetcode.com/problems/palindrome-number/description/
-
-import java.util.ArrayList;
-import java.util.List;
+//LeetCode description: https://leetcode.com/problems/palindrome-number/description
 
 public class Solution {
 
